@@ -13,4 +13,20 @@ export const dataFake = [
     photoCover:
       'https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg',
   },
+  {
+    id: '3',
+    title: 'Disney anuncia novos streams +',
+    description:
+      'Segundo o CEO do Grupo Disney, novos streams serão adicionados à plataforma. Aguardemos!',
+    photoCover:
+      'https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg',
+  },
+  {
+    id: '4',
+    title: 'Série impactante será lançada este mês. Confira! +',
+    description:
+      'Ficamos sabendo, através da assessoria de comunicação do grupo Disney, que uma série impactante estreiará ainda este ano. Segundo informações que obtemos será uma quebvra de paradigma no padrão Disney de produções. Será ?',
+    photoCover:
+      'https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg',
+  },
 ];
