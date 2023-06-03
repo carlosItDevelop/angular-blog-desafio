@@ -2,7 +2,7 @@
 
 ### Este projeto foi gerado (originalmente) pelo Angluar CLI na versão 14.1.2, mas foi atualizado para a versão 16.0.0, por Carlos A Santos.
 
-![Projeto Blog-Marvel](https://github.com/carlosItDevelop/angular-blog-desafio/blob/main/src/assets/capa.png "Projeto base paa crescimento - DIO | Digital Innovation One")
+![Projeto Blog-Marvel](https://github.com/carlosItDevelop/angular-blog-desafio/blob/main/src/assets/capa.png "Projeto base - DIO | Digital Innovation One")
 
 > Uma das alterações necessárias para a autalização do projeto é crias a pasta environment e seus respectivos arquivos de ambiente para Dev e Prod, que deixou de ser gerado automaticamente na versão 14.x do Angular, mas que a partir do Angular 15 criou-se a possibilidade de ser gerado pelo Angular CLI.
 
@@ -38,6 +38,7 @@ Link de referência: [https://angular.io/guide/build#configure-environment-spec
 ---
 
 - Obervação importante:
+
   - Para evitar a criação de arquivos de tests, podemos fazer de duas maneiras:
 
     - Usando o CLI: ng g c nome-do-component --skip-tests
