@@ -24,6 +24,8 @@
 }
 
 .content__description>p {
-  margin-top: 20px;
+  margin-top: 30px;
   color: rgb(198, 197, 197);
+  width: 60%;
+  margin: auto;
 }
