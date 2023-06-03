@@ -2,6 +2,8 @@
 
 ### Este projeto foi gerado (originalmente) pelo Angluar CLI na versão 14.1.2, mas foi atualizado para a versão 16.0.0, por Carlos A Santos.
 
+![Projeto Blog-Marvel](https://github.com/carlosItDevelop/angular-blog-desafio/blob/main/src/assets/capa.png "Projeto base paa crescimento - DIO | Digital Innovation One")
+
 > Uma das alterações necessárias para a autalização do projeto é crias a pasta environment e seus respectivos arquivos de ambiente para Dev e Prod, que deixou de ser gerado automaticamente na versão 14.x do Angular, mas que a partir do Angular 15 criou-se a possibilidade de ser gerado pelo Angular CLI.
 
 Pasta `environments` não é criada com o projeto a partir do `Angular 14`. Porém, com o `lançamento do Angular CLI 15.1`, um esquema de geração estará disponível para adicionar os arquivos de ambiente para todas as configurações de compilação existentes em um projeto. Exemplo de uso:
@@ -20,7 +22,7 @@ Link de referência: [https://angular.io/guide/build#configure-environment-spec
     "fileReplacements": [
         {
                   "replace": "./src/environments/environment.developement.ts",
-                  "with": "./src/environments/environment.ts"                  
+                  "with": "./src/environments/environment.ts"
         }
     ],
   },
@@ -36,33 +38,35 @@ Link de referência: [https://angular.io/guide/build#configure-environment-spec
 ---
 
 - Obervação importante:
-	- Para evitar a criação de arquivos de tests, podemos fazer de duas maneiras:
-		- Usando o CLI: ng g c nome-do-component --skip-tests
-		- Ou configurando para o projeto inteiro, conforme explicação abaixo:
-		- Para evitar a criação de arquivos de teste ao gerar componentes, serviços ou diretivas globalmente no projeto, você pode alterar as configurações padrão no arquivo angular.json. Para fazer isso, localize a seção "schematics" e adicione ou modifique as opções de componentes, serviços e diretivas para incluir "skipTests": true. Por exemplo:
-		
-		```typescript
-		
-			{
-			  ...
-			  "projects": {
-				"meu-projeto": {
-				  ...
-				  "schematics": {
-					"@schematics/angular:component": {
-					  "skipTests": true},
-					"@schematics/angular:service": {
-					  "skipTests": true},
-					"@schematics/angular:directive": {
-					  "skipTests": true}
-				  },
-				  ...
-				}
-			  },
-			  ...
-			}
-		```
-		- Ao aplicar essas configurações, o Angular CLI não gerará arquivos de teste quando você criar componentes, serviços ou diretivas no projeto.
+  - Para evitar a criação de arquivos de tests, podemos fazer de duas maneiras:
+
+    - Usando o CLI: ng g c nome-do-component --skip-tests
+    - Ou configurando para o projeto inteiro, conforme explicação abaixo:
+    - Para evitar a criação de arquivos de teste ao gerar componentes, serviços ou diretivas globalmente no projeto, você pode alterar as configurações padrão no arquivo angular.json. Para fazer isso, localize a seção "schematics" e adicione ou modifique as opções de componentes, serviços e diretivas para incluir "skipTests": true. Por exemplo:
+
+    ```typescript
+
+    	{
+    	  ...
+    	  "projects": {
+    		"meu-projeto": {
+    		  ...
+    		  "schematics": {
+    			"@schematics/angular:component": {
+    			  "skipTests": true},
+    			"@schematics/angular:service": {
+    			  "skipTests": true},
+    			"@schematics/angular:directive": {
+    			  "skipTests": true}
+    		  },
+    		  ...
+    		}
+    	  },
+    	  ...
+    	}
+    ```
+
+    - Ao aplicar essas configurações, o Angular CLI não gerará arquivos de teste quando você criar componentes, serviços ou diretivas no projeto.
 
 ## Development server
 
